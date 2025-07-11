@@ -101,13 +101,13 @@ const Navbar = () => {
         ref={navRef}
         className="fixed z-50 flex flex-col justify-between w-full h-full px-10 uppercase bg-black text-white/80 py-28 gap-y-10 md:w-1/2 md:left-1/2"
       >
-        <div className="flex flex-col text-5xl gap-y-2 md:text-6xl lg:text-8xl">
-          {["home", "services", "about", "work", "contact"].map(
+        <div className="flex flex-col text-2xl gap-y-2 md:text-3xl lg:text-4xl">
+          {["home", "skills details", "skills", "about", "work", "contact"].map(
             (section, index) => (
               <div key={index} ref={(el) => (linksRef.current[index] = el)}>
                 <Link
                   className="transition-all duration-300 cursor-pointer hover:text-white"
-                  to={`${section}`}
+                  to={section.replace(/ /g, "")}
                   smooth
                   offset={0}
                   duration={2000}
@@ -125,7 +125,7 @@ const Navbar = () => {
           <div className="font-light">
             <p className="tracking-wider text-white/50">E-mail</p>
             <p className="text-xl tracking-widest lowercase text-pretty">
-              JohnDoe@gmail.com
+              ria.sri2604@gmail.com
             </p>
           </div>
           <div className="font-light">

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
-import ServiceSummary from "./sections/ServiceSummary";
-import Services from "./sections/Services";
+import SkillsSummaryDetails from "./sections/SkillsSummaryDetails";
+import SkillsSummary from "./sections/SkillsSummary";
 import ReactLenis from "lenis/react";
 import About from "./sections/About";
 import Works from "./sections/Works";
@@ -42,8 +42,8 @@ const App = () => {
       >
         <Navbar />
         <Hero />
-        <ServiceSummary />
-        <Services />
+        <SkillsSummaryDetails />
+        <SkillsSummary />
         <About />
         <Works />
         <ContactSummary />

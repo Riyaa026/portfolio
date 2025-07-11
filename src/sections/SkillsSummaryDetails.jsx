@@ -2,7 +2,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 gsap.registerPlugin(ScrollTrigger);
-const ServiceSummary = () => {
+const SkillsSummaryDetails = () => {
   useGSAP(() => {
     gsap.to("#title-service-1", {
       xPercent: 20,
@@ -43,7 +43,7 @@ const ServiceSummary = () => {
         className="flex items-center justify-center gap-3 translate-x-16"
       >
         <p className="font-normal">Development</p>
-        <div className="w-10 h-1 md:w-32 bg-gold" />
+        <div className="w-10 h-1 md:w-32 bg-white" />
         <p>Deployment</p>
       </div>
       <div
@@ -51,9 +51,9 @@ const ServiceSummary = () => {
         className="flex items-center justify-center gap-3 -translate-x-48"
       >
         <p>APIs</p>
-        <div className="w-10 h-1 md:w-32 bg-gold" />
+        <div className="w-10 h-1 md:w-32 bg-white" />
         <p className="italic">Frontends</p>
-        <div className="w-10 h-1 md:w-32 bg-gold" />
+        <div className="w-10 h-1 md:w-32 bg-white" />
         <p>Scalability</p>
       </div>
       <div id="title-service-4" className="translate-x-48">
@@ -63,4 +63,4 @@ const ServiceSummary = () => {
   );
 };
 
-export default ServiceSummary;
+export default SkillsSummaryDetails;

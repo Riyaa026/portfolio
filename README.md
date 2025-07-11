@@ -1,96 +1,67 @@
-# 🌐 3D Awwwards-Level Developer Portfolio
+# Riya Srivastava – Developer Portfolio
 
-### Built with React, GSAP, Three.js, TailwindCSS
+A modern, interactive, black & white themed portfolio built with React, GSAP, and Spline 3D. Showcasing skills, projects, and a passion for impactful web development.
 
-This is a fully animated, interactive, 3D developer portfolio designed to **impress clients, recruiters, and hiring managers**. It's more than a portfolio—it's a web experience built with production-level code, scroll-based animations, and real-world best practices.
-
-> ⚡ Inspired by Awwwards-level sites — built with React (Vite), TailwindCSS, GSAP, React Three Fiber, and Drei.
-
-<br/>
-<div>
-  <img src="https://github.com/user-attachments/assets/4eaf9399-fd02-4a90-83f7-2b5a361bc032" alt="Hero" style="border-radius: 8px;"/>
-  <div style="display: flex; justify-content: space-between; margin: 20px 0;">
-    <img src="https://github.com/user-attachments/assets/155bf742-b24f-4119-89f4-87e6d88c8f53" alt="Works" style="width: 32%; border-radius: 8px;"/>
-    <img src="https://github.com/user-attachments/assets/f22b9749-85ed-434f-a5f6-df1f8e221103" alt="ContactSummary" style="width: 32%; border-radius: 8px;"/>
-    <img src="https://github.com/user-attachments/assets/3e473322-b96a-433b-aec5-ece9bab25795" alt="Contact" style="width: 32%; border-radius: 8px;"/>
-  </div>
-</div>
-<br/>
-
-> 📺 [Watch Full YouTube Walkthrough](https://youtu.be/i0229UsdBwc)
 ---
 
 ## 🚀 Tech Stack
 
-| Technology       | Description                             |
-| ---------------- | --------------------------------------- |
-| **React (Vite)** | Fast dev server and production bundling |
-| **Tailwind CSS** | Utility-first styling for components    |
-| **GSAP**         | Scroll-based animation and motion logic |
-| **Three.js**     | 3D scenes powered by React Three Fiber  |
-| **Drei**         | Useful helpers for 3D rendering         |
+- **React (Vite)** – Fast, modular frontend
+- **Tailwind CSS** – Utility-first styling
+- **GSAP** – Smooth, scroll-based animations
+- **Spline 3D** – Interactive hero section
 
 ---
 
 ## 📁 Features
 
-- 🔥 3D Hero Section with animated planet and golden ring
-- 🧩 Smooth slide-in Navbar with staggered link animations
-- 🎯 Scroll-triggered Service Summary with horizontal word motion
-- 🖼️ Works section with hover overlays and interactive previews
-- ✍️ About section with clip-path image reveal + typewriter text
-- 🏁 Marquee-based Contact Summary and CTA
-- 💼 Fully responsive and accessible on all screen sizes
+- 🖤 Black & white minimalist design
+- ✨ Animated hero section with Spline 3D model
+- 🧑‍💻 Skills Summary and Details sections
+- 📂 Project gallery with interactive previews
+- 📝 About section with certifications and achievements
+- 📬 Contact section with direct links
+- 💡 Fully responsive and accessible
 
 ---
 
 ## 📦 Setup & Installation
 
 ```bash
-git clone https://github.com/Ali-Sanati/awwwards-portfolio.git
-cd awwwards-portfolio
+# Clone the repository
+https://github.com/Riyaa026/your-portfolio-repo.git
+cd your-portfolio-repo
 npm install
 npm run dev
 ```
 
-> Open http://localhost:5173 in your browser.
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ---
 
-## 🛠️ Customization Tips
+## 🛠️ Customization
 
-- Change text, images, and links in /constants/index.js
-
-- Update 3D models and scene in Hero.jsx
-
-- Add your own contact info in Contact.jsx
-
-- Adjust colors, fonts, and layout via tailwind.config.js
+- Update your skills and projects in `src/constants/index.js`
+- Change hero 3D model in `src/sections/Hero.jsx`
+- Edit About, Contact, and other sections in `src/sections/`
+- Adjust styles in `src/index.css` and Tailwind config
 
 ---
 
-## 🔗 Assets
+## 🔗 Connect
 
-Assets used in the project can be found [here](https://github.com/user-attachments/files/19820923/public.zip)
-
----
-
-## 📣 Like the project?
-
-If this helped you build or inspire your own site:
-
-- ⭐ Star this repo
-
-- 📺 [Watch the full walkthrough on YouTube](https://youtu.be/i0229UsdBwc)
-
-- 📬 [Connect on LinkedIn](https://www.linkedin.com/in/ali-sanati)
-
-- 📷 [Follow me on Instagram](https://www.instagram.com/ali.sanatidev/reels/)
+- [LinkedIn](https://www.linkedin.com/in/riya-srivastava01)
+- [GitHub](https://github.com/Riyaa026)
 
 ---
 
-## 🤝 Let’s Build Together
+## 📣 Credits
 
-Drop a comment on the video or open an issue with your idea!
+- Spline 3D for interactive hero
+- Open source libraries: React, GSAP, Tailwind CSS
 
-> 📩 Like, subscribe, and let me know what kind of project you want to build together!
+---
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).

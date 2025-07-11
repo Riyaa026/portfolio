@@ -58,21 +58,23 @@ export function Planet(props) {
           castShadow
           receiveShadow
           geometry={nodes.Sphere2.geometry}
-          material={materials["Material.001"]}
           position={[0.647, 1.03, -0.724]}
           rotation={[0, 0, 0.741]}
           scale={0.223}
-        />
+        >
+          <meshStandardMaterial color="#b0b0b0" />
+        </mesh>
       </group>
       <mesh
         ref={ringContainer}
         castShadow
         receiveShadow
         geometry={nodes.Ring.geometry}
-        material={materials["Material.001"]}
         rotation={[-0.124, 0.123, -0.778]}
         scale={2}
-      />
+      >
+        <meshStandardMaterial color="#b0b0b0" />
+      </mesh>
     </group>
   );
 }
