@@ -49,8 +49,8 @@ Certifications & Achievements
       <div className="flex flex-col items-center justify-between gap-16 px-10 pb-16 text-xl font-light tracking-wide lg:flex-row md:text-2xl lg:text-3xl text-white/60">
         <img
           ref={imgRef}
-          src="public\images\donut.gif"
-          alt="man"
+          src="public/images/donut.gif"
+          alt="coding donut"
           className="w-md rounded-3xl"
         />
         <AnimatedTextLines text={aboutText} className={"w-full"} />
