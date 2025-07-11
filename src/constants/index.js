@@ -44,7 +44,7 @@ export const projects = [
     description:
       "A comprehensive platform enabling streamlined elderly care by connecting users with personalized nursing services, caregiver scheduling, and smart hospital search tools.",
     href: "",
-    image: "public/assets/projects/inyourcare.jpg",
+    image: "/assets/projects/inyourcare.jpg",
     frameworks: [
       { id: 1, name: "Springboot" },
       { id: 2, name: "MySQL" },
@@ -59,7 +59,7 @@ export const projects = [
     description:
       "A full-featured banking system built with Flask and MySQL to streamline customer banking tasks and empower administrators with efficient financial oversight",
     href: "",
-    image: "public/assets/projects/bankease.png",
+    image: "/assets/projects/bankease.png",
     frameworks: [
       { id: 1, name: "Python" },
       { id: 2, name: "Flask" },
@@ -75,7 +75,7 @@ export const projects = [
     description:
       "An engaging AI learning tool that visually demonstrates algorithm behavior through interactive simulations, custom inputs, and step-by-step reasoning.",
     href: "",
-    image: "public/assets/projects/neuralnexus.png",
+    image: "/assets/projects/neuralnexus.png",
     frameworks: [
       { id: 1, name: "HTML" },
       { id: 2, name: "CSS" },
